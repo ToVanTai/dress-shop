@@ -1050,8 +1050,8 @@ img {
 @media only screen and (max-width: 576px) {
   .slide__left__color div span.active,
 .slide__left__color div span:hover {
-    width: 25px;
-    height: 25px;
+    width: 25px !important;
+    height: 25px !important;
   }
 }
 .slide__left__price {
