@@ -1047,6 +1047,13 @@ img {
   width: 40px;
   height: 40px;
 }
+@media only screen and (max-width: 576px) {
+  .slide__left__color div span.active,
+.slide__left__color div span:hover {
+    width: 25px;
+    height: 25px;
+  }
+}
 .slide__left__price {
   transform: translateX(-100%);
   opacity: 0;

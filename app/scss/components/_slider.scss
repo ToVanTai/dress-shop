@@ -212,6 +212,13 @@
                 width: 40px;
                 height: 40px;
             }
+            @include mobile() {
+                span.active,
+                span:hover {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
         }
     }
     &__price {
