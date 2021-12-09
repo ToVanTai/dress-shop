@@ -1036,8 +1036,8 @@ img {
 }
 @media only screen and (max-width: 576px) {
   .slide__left__color div span {
-    width: 20px;
-    height: 20px;
+    width: 20px !important;
+    height: 20px !important;
     border-width: 2px;
   }
 }
@@ -1046,13 +1046,6 @@ img {
   border-color: #bbb;
   width: 34px;
   height: 34px;
-}
-@media only screen and (max-width: 576px) {
-  .slide__left__color div span.active,
-.slide__left__color div span:hover {
-    width: 25px !important;
-    height: 25px !important;
-  }
 }
 .slide__left__price {
   transform: translateX(-100%);
