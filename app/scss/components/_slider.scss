@@ -212,9 +212,9 @@
                 width: 34px;
                 height: 34px;
             }
-            @include mobile() {
-                span.active,
-                span:hover {
+            span.active,
+            span:hover {
+                @include mobile() {
                     width: 25px !important;
                     height: 25px !important;
                 }
