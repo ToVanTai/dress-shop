@@ -1044,8 +1044,8 @@ img {
 .slide__left__color div span.active,
 .slide__left__color div span:hover {
   border-color: #bbb;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
 }
 @media only screen and (max-width: 576px) {
   .slide__left__color div span.active,

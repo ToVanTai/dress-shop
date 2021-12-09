@@ -209,8 +209,8 @@
             span.active,
             span:hover {
                 border-color: $color-black-second;
-                width: 28px;
-                height: 28px;
+                width: 34px;
+                height: 34px;
             }
             @include mobile() {
                 span.active,
