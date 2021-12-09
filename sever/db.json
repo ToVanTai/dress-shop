@@ -1,0 +1,83 @@
+{
+    "home-slider": [
+        {
+            "name": "Chân Váy Bút Chì Dài",
+            "price": "269.000đ",
+            "mainColor": "#cc3300",
+            "img": "./access/img/slider/slide-1.png",
+            "id": "1",
+            "sizes": [
+                { "size": "s", "id": 1 },
+                { "size": "m", "id": 2 },
+                { "size": "l", "id": 3 },
+                { "size": "xl", "id": 4 }
+            ],
+            "colors": [
+                { "color": "#cc3300", "id": "1" },
+                { "color": "#ff3399", "id": 2 },
+                { "color": "##6600ff", "id": 3 }
+            ]
+        },
+        {
+            "name": "Chân Váy Bút Chì Dài Bèo Đính Cúc",
+            "price": "299.000đ",
+            "mainColor": "#17171b",
+            "img": "./access/img/slider/slide-2.png",
+            "id": "2",
+            "sizes": [
+                { "size": "s", "id": 1 },
+                { "size": "l", "id": 2 },
+                { "size": "xl", "id": 3 }
+            ],
+            "colors": [
+                { "color": "#17171b", "id": "1" },
+                { "color": "#0000ff", "id": 2 },
+                { "color": "#ff00ff", "id": 3 }
+            ]
+        },
+        {
+            "name": "Áo Sơ Mi Nữ Cổ Nơ Bèo Tay",
+            "price": "166.000đ",
+            "mainColor": "#6b474b",
+            "img": "./access/img/slider/slide-3.png",
+            "id": "3",
+            "sizes": [
+                { "size": "s", "id": 1 },
+                { "size": "l", "id": 2 },
+                { "size": "xl", "id": 3 }
+            ],
+            "colors": [
+                { "color": "#6b474b", "id": "1" },
+                { "color": "#66ff33", "id": 2 },
+                { "color": "#00ccff", "id": 3 }
+            ]
+        }
+    ],
+    "newArrivals": [
+        {
+            "img": "./access/img/noname/1.jpg",
+            "description": "description 1",
+            "id": "1"
+        },
+        {
+            "img": "./access/img/noname/2.jpg",
+            "description": "description 2",
+            "id": "2"
+        },
+        {
+            "img": "./access/img/noname/3.jpg",
+            "description": "description 3",
+            "id": "3"
+        },
+        {
+            "img": "./access/img/noname/4.jpg",
+            "description": "description test",
+            "id": "4"
+        },
+        {
+            "img": "./access/img/noname/5.jpg",
+            "description": "description 5",
+            "id": "5"
+        }
+    ]
+}
