@@ -187,22 +187,22 @@
             "img": "./access/img/mixMatchset/8.jpg"
         }
     ],
-    "jumsuits": [
+    "suit": [
         {
             "id": 1,
-            "img": "./access/img/jumsuits/1.jpg",
+            "img": "./access/img/suit/1.jpg",
             "price": "248.000đ",
             "description": "ĐẦM 2 DÂY XÁM XẺ TÀ SAU"
         },
         {
             "id": 2,
-            "img": "./access/img/jumsuits/2.jpg",
+            "img": "./access/img/suit/2.jpg",
             "price": "348.000đ",
             "description": "JUM HỒNG HAI DÂY NGẮN ĐÍNH NƠ"
         },
         {
             "id": 3,
-            "img": "./access/img/jumsuits/3.jpg",
+            "img": "./access/img/suit/3.jpg",
             "price": "399.000đ",
             "description": "JUMPSUIT TRẮNG SỌC ĐEN"
         }

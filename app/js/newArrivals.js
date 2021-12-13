@@ -6,7 +6,6 @@ const swiperPromise = new Promise((resolve, reject) => {
 });
 swiperPromise.then((data) => {
     let dataParse = JSON.parse(data.response);
-    console.log(dataParse);
     let mySwiperWrapper = conFig.$(".my-swiper-wrapper");
     for (let i = 0; i < dataParse.length; i++) {
         mySwiperWrapper.innerHTML += `<div class="swiper-slide">
