@@ -1,55 +1,112 @@
 {
     "home-slider": [
         {
+            "id": "1",
             "name": "Chân Váy Bút Chì Dài",
             "price": "269.000đ",
             "mainColor": "#cc3300",
             "img": "./access/img/slider/slide-1.png",
-            "id": "1",
             "sizes": [
-                { "size": "s", "id": 1 },
-                { "size": "m", "id": 2 },
-                { "size": "l", "id": 3 },
-                { "size": "xl", "id": 4 }
+                {
+                    "size": "s",
+                    "id": 1
+                },
+                {
+                    "size": "m",
+                    "id": 2
+                },
+                {
+                    "size": "l",
+                    "id": 3
+                },
+                {
+                    "size": "xl",
+                    "id": 4
+                }
             ],
             "colors": [
-                { "color": "#cc3300", "id": "1" },
-                { "color": "#ff3399", "id": 2 },
-                { "color": "##6600ff", "id": 3 }
+                {
+                    "color": "#cc3300",
+                    "id": "1"
+                },
+                {
+                    "color": "#ff3399",
+                    "id": 2
+                },
+                {
+                    "color": "#6600ff",
+                    "id": 3
+                }
             ]
         },
         {
+            "id": "2",
             "name": "Chân Váy Bút Chì Dài Bèo Đính Cúc",
             "price": "299.000đ",
             "mainColor": "#17171b",
             "img": "./access/img/slider/slide-2.png",
-            "id": "2",
             "sizes": [
-                { "size": "s", "id": 1 },
-                { "size": "l", "id": 2 },
-                { "size": "xl", "id": 3 }
+                {
+                    "size": "s",
+                    "id": 1
+                },
+                {
+                    "size": "l",
+                    "id": 2
+                },
+                {
+                    "size": "xl",
+                    "id": 3
+                }
             ],
             "colors": [
-                { "color": "#17171b", "id": "1" },
-                { "color": "#0000ff", "id": 2 },
-                { "color": "#ff00ff", "id": 3 }
+                {
+                    "color": "#17171b",
+                    "id": "1"
+                },
+                {
+                    "color": "#0000ff",
+                    "id": 2
+                },
+                {
+                    "color": "#ff00ff",
+                    "id": 3
+                }
             ]
         },
         {
+            "id": "3",
             "name": "Áo Sơ Mi Nữ Cổ Nơ Bèo Tay",
             "price": "166.000đ",
             "mainColor": "#6b474b",
             "img": "./access/img/slider/slide-3.png",
-            "id": "3",
             "sizes": [
-                { "size": "s", "id": 1 },
-                { "size": "l", "id": 2 },
-                { "size": "xl", "id": 3 }
+                {
+                    "size": "s",
+                    "id": 1
+                },
+                {
+                    "size": "l",
+                    "id": 2
+                },
+                {
+                    "size": "xl",
+                    "id": 3
+                }
             ],
             "colors": [
-                { "color": "#6b474b", "id": "1" },
-                { "color": "#66ff33", "id": 2 },
-                { "color": "#00ccff", "id": 3 }
+                {
+                    "color": "#6b474b",
+                    "id": "1"
+                },
+                {
+                    "color": "#66ff33",
+                    "id": 2
+                },
+                {
+                    "color": "#00ccff",
+                    "id": 3
+                }
             ]
         }
     ],
@@ -78,6 +135,179 @@
             "img": "./access/img/noname/5.jpg",
             "description": "description 5",
             "id": "5"
+        }
+    ],
+    "mix": [
+        {
+            "id": 1,
+            "description": "ÁO CROPTOP SÁT NÁCH PHỐI QUẦN THỂ THAO",
+            "price": "245.000đ",
+            "img": "./access/img/mixMatchset/1.png"
+        },
+        {
+            "id": 2,
+            "description": "ÁO CROTOP TRẮNG TAY BỒNG REN ĐÍNH NƠ SAU",
+            "price": "595.000đ",
+            "img": "./access/img/mixMatchset/2.jpg"
+        },
+        {
+            "id": 3,
+            "description": "ÁO ĐEN HAI DÂY SỌC NỐI TAG KHUY GOLD",
+            "price": "410.000đ",
+            "img": "./access/img/mixMatchset/3.jpg"
+        },
+        {
+            "id": 4,
+            "description": "ÁO HAI DÂY NUDE HOA PASTEL",
+            "price": "295.000đ",
+            "img": "./access/img/mixMatchset/4.jpg"
+        },
+        {
+            "id": 5,
+            "description": "ÁO KIM SA SILVER VIỀN ĐEN LẤP LÁNH",
+            "price": "690.000đ",
+            "img": "./access/img/mixMatchset/5.jpg"
+        },
+        {
+            "id": 6,
+            "description": "ÁO SÁT NÁCH CỔ V PEPLUM XẾP LY",
+            "price": "640.000đ",
+            "img": "./access/img/mixMatchset/6.jpg"
+        },
+        {
+            "id": 7,
+            "description": "ÁO SƠ MI MÙA HÈ",
+            "price": "245.000đ",
+            "img": "./access/img/mixMatchset/7.jpg"
+        },
+        {
+            "id": 8,
+            "description": "ÁO TRẮNG BA LỖ VIỀN PHỐI VÁY ZIPPER LAI BELT.",
+            "price": "410.000đ",
+            "img": "./access/img/mixMatchset/8.jpg"
+        }
+    ],
+    "jumsuits": [
+        {
+            "id": 1,
+            "img": "./access/img/jumsuits/1.jpg",
+            "price": "248.000đ",
+            "description": "ĐẦM 2 DÂY XÁM XẺ TÀ SAU"
+        },
+        {
+            "id": 2,
+            "img": "./access/img/jumsuits/2.jpg",
+            "price": "348.000đ",
+            "description": "JUM HỒNG HAI DÂY NGẮN ĐÍNH NƠ"
+        },
+        {
+            "id": 3,
+            "img": "./access/img/jumsuits/3.jpg",
+            "price": "399.000đ",
+            "description": "JUMPSUIT TRẮNG SỌC ĐEN"
+        }
+    ],
+    "shirt": [],
+    "clothes": [
+        {
+            "id": 1,
+            "img": "./access/img/quan/7.jpg",
+            "price": "248.000đ",
+            "description": "ÁO CROPTOP SÁT NÁCH PHỐI QUẦN THỂ THAO"
+        },
+        {
+            "id": 2,
+            "img": "./access/img/quan/5.jpg",
+            "price": "233.000đ",
+            "description": "ÁO ĐEN HAI DÂY SỌC NỐI TAG KHUY GOLD"
+        },
+        {
+            "id": 3,
+            "img": "./access/img/quan/3.jpg",
+            "price": "238.000đ",
+            "description": "QUẦN JEANS HỒNG ỐNG RỘNG LƯNG HIGHLOW"
+        },
+        {
+            "id": 4,
+            "img": "./access/img/quan/4.jpg",
+            "price": "238.000đ",
+            "description": "QUẦN JEANS XANH ĐẬM NHẠT KHUY SILVER"
+        },
+        {
+            "id": 5,
+            "img": "./access/img/quan/5.jpg",
+            "price": "228.000đ",
+            "description": "QUẦN ỐNG RỘNG XẾP LY MÀU NUDE"
+        },
+        {
+            "id": 6,
+            "img": "./access/img/quan/6.jpg",
+            "price": "233.000đ",
+            "description": "QUẦN SHORT ĐEN KHÓA TRƯỚC KHOEN TRÒN"
+        },
+        {
+            "id": 7,
+            "img": "./access/img/quan/7.jpg",
+            "price": "238.000đ",
+            "description": "QUẦN SHORT TRẮNG LAI RÁCH BELT ĐEN"
+        },
+        {
+            "id": 8,
+            "img": "./access/img/quan/3.jpg",
+            "price": "238.000đ",
+            "description": "QUẦN TRẮNG DÀI TRƠN LAI NHÚN RÚT DÂY"
+        }
+    ],
+    "accessory": [
+        {
+            "id": 1,
+            "img": "./access/img/phukien/1.jpg",
+            "price": "248.000đ",
+            "description": "ĐẦM QUÝ CÔ"
+        }
+    ],
+    "dress": [
+        {
+            "id": 1,
+            "img": "./access/img/dam/1.jpg",
+            "price": "248.000đ",
+            "description": "ĐẦM 2 DÂY XÁM XẺ TÀ SAU"
+        },
+        {
+            "id": 2,
+            "img": "./access/img/dam/7.jpg",
+            "price": "323.000đ",
+            "description": "ĐẦM ĐEN TRỄ VAI TAY DÀI CHỮ TRẮNG"
+        },
+        {
+            "id": 3,
+            "img": "./access/img/dam/5.jpg",
+            "price": "248.000đ",
+            "description": "ĐẦM PURPLE DAISY CỔ TRÒN"
+        },
+        {
+            "id": 4,
+            "img": "./access/img/dam/6.jpg",
+            "price": "448.000đ",
+            "description": "ĐẦM QUÝ CÔ"
+        },
+        {
+            "id": 5,
+            "img": "./access/img/dam/5.jpg",
+            "price": "223.000đ",
+            "description": "ĐẦM TAY BỒNG TRẮNG HOẠ TIẾT RỪNG XANH"
+        },
+        {
+            "id": 6,
+            "img": "./access/img/dam/6.jpg",
+            "price": "238.000đ",
+            "description": "ĐẦM TAY NGẮN CỔ V TRẮNG (LINEN) FLOWER"
+        },
+        {
+            "id": 7,
+            "img": "./access/img/dam/7.jpg",
+            "price": "248.000đ",
+            "description": "ĐẦM XÁM HAI DÂY TRỄ VAI VIỀN BÈO VOAN"
         }
     ]
 }

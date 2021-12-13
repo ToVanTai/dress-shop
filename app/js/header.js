@@ -10,6 +10,17 @@ function headerShowOnLoad() {
     }, 1200);
 }
 window.addEventListener("load", headerShowOnLoad);
+window.addEventListener("load", preventLinks);
+function preventLinks() {
+    let links = document.getElementsByTagName("a");
+    function preventLink(event) {
+        event.preventDefault();
+    }
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener("click", preventLink);
+    }
+}
+
 let headerMobileProcess = conFig.$(".header__mobile__process");
 let layoutOverlayMobile = conFig.$(".layout-overlay-mobile");
 let menuMobileContainer = conFig.$(".menu__mobile__container");
