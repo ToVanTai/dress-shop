@@ -309,5 +309,37 @@
             "price": "248.000đ",
             "description": "ĐẦM XÁM HAI DÂY TRỄ VAI VIỀN BÈO VOAN"
         }
+    ],
+    "news": [
+        {
+            "id": 1,
+            "title": "15 CÁCH PHỐI ĐỒ ĐI TIỆC CƯỚI CHO NỮ CÁ TÍNH,SÀNH ĐIỆU",
+            "img": "./access/img/news/1.jpeg",
+            "created_at": "2018-03-29T13:34:00.000",
+            "updated_at": "2018-03-29T13:34:00.000",
+            "poster": "admin",
+            "coment_quantity": 0,
+            "description": "Phối đồ đi đám cưới cho nữ cá tính như thế nào để đảm bảo sành điệu, chất nhất? Những cô nàng cá tính hẳn sẽ băn khoăn khi chọn trang phục đi đám cưới phù hợp lại mang phong cách của bản thân. Việc làm mới bản thân đôi khi cũng"
+        },
+        {
+            "id": 2,
+            "title": "KHẨU TRANG THIẾT KẾ – SÁNG TẠO MÙA COVID",
+            "img": "./access/img/news/2.png",
+            "created_at": "2018-03-29T13:34:00.000",
+            "updated_at": "2018-03-29T13:34:00.000",
+            "poster": "admin",
+            "coment_quantity": 0,
+            "description": "Khẩu trang thiết kế đang trở thành cơn sốt trong giới fashionista. Cùng KIM S tìm hiểu cơn sốt đặc biệt này nhé! Nhiều mặt hàng thời trang ngày nay được ra đời bắt nguồn từ việc phục vụ cho những tiện ích đời sống. Chẳng hạn như, chiếc quần"
+        },
+        {
+            "id": 3,
+            "title": "BLACKPINK – CON CƯNG CỦA CÁC NHÀ MỐT LỪNG DANH",
+            "img": "./access/img/news/3.png",
+            "created_at": "2018-03-29T13:34:00.000",
+            "updated_at": "2018-03-29T13:34:00.000",
+            "poster": "admin",
+            "coment_quantity": 0,
+            "description": "Bên cạnh những cú hit lớn, BLACKPINK còn được biết đến với gu thời trang đỉnh cao, sang chảnh. Các cô nàng đã trở thành khuôn mặt được săn đón nhất và là đại diện của những nhà mốt nổi tiếng. Cùng KIM S điểm qua các thương hiệu đó"
+        }
     ]
 }

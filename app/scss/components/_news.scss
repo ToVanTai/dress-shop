@@ -1,0 +1,144 @@
+@use "./../abtracts/" as *;
+.news {
+    &__header {
+        font-size: 4.8rem;
+        color: $color-black;
+        text-align: center;
+        padding: 10px;
+        margin-top: 25px;
+        @include tablet {
+            font-size: 3.8rem;
+            margin-top: 5px;
+            p {
+                margin-top: 0px !important;
+            }
+        }
+        @include mobile {
+            font-size: 3.8rem;
+            margin-top: 5px;
+            p {
+                margin-top: 0px !important;
+            }
+        }
+    }
+    &__container {
+        &__item {
+            padding: 5px 12px;
+            @include mobile {
+                padding: 10px 5px;
+            }
+            &__img {
+                text-align: center;
+                height: 300px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                img {
+                    cursor: pointer;
+                    transition: all 0.4s;
+                    height: 100%;
+                    width: auto;
+                    object-fit: cover;
+                    transform: scale(1);
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            &__content {
+                &__title {
+                    font-size: 1.5rem;
+                    line-height: 1.5rem;
+                    padding-bottom: 5px;
+                    height: 3rem;
+                    text-align: center;
+                    overflow: hidden;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    display: -webkit-box;
+                    font-weight: 500;
+                    @include tablet {
+                        font-size: 2rem;
+                        line-height: 2rem;
+                        padding-bottom: 3px;
+                        height: 2rem;
+                    }
+                    @include mobile {
+                        font-size: 2rem;
+                        line-height: 2rem;
+                        padding-bottom: 3px;
+                        height: 2rem;
+                    }
+                }
+                &__article {
+                    text-align: center;
+                    font-size: 1.6rem;
+                    padding: 5px 0px;
+                    @include tablet {
+                        padding: 0px;
+                        font-size: 1.8rem;
+                    }
+                    @include mobile {
+                        padding: 0px;
+                        font-size: 1.8rem;
+                    }
+                    @include flex(center, center);
+                    .date-time,
+                    .poster,
+                    .comment {
+                        @include flex(center, center);
+                        i {
+                            padding-right: 5px;
+                        }
+                        p {
+                            padding-right: 5px;
+                        }
+                    }
+                }
+                &__description {
+                    @include tablet {
+                        @include flex(center, center);
+                        p {
+                            max-width: 500px;
+                        }
+                    }
+                    @include mobile {
+                        @include flex(center, center);
+                        p {
+                            max-width: 400px;
+                        }
+                    }
+                    p {
+                        font-size: 1.8rem;
+                        color: $color-black;
+                        text-align: justify;
+                        line-height: 2.2rem;
+                        height: 6.5rem;
+                        overflow: hidden;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        display: -webkit-box;
+                    }
+                }
+            }
+        }
+    }
+    &__viewmore {
+        text-align: center;
+        margin-top: 5px;
+        span {
+            display: inline-block;
+            margin-bottom: 15px;
+            cursor: pointer;
+            color: $color-black;
+            background: $color-white;
+            border: 2px solid $color-black;
+            font-size: 2.4rem;
+            padding: 6px 12px;
+            transition: all 0.4s;
+        }
+        span:hover {
+            background: $color-black;
+            color: $color-white;
+        }
+    }
+}

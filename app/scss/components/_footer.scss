@@ -1,0 +1,106 @@
+@use "./../abtracts/" as *;
+.footer {
+    background: #212529;
+    padding: 15px 15px;
+    &__item {
+        padding: 0px 15px;
+        &__title {
+            > h2 {
+                font-weight: bold;
+                font-weight: 500;
+                color: $color-white;
+                font-size: 2.2rem;
+            }
+            margin-bottom: 15px;
+        }
+        &__container {
+            @include tablet {
+                margin-bottom: 12px;
+            }
+            @include mobile {
+                margin-bottom: 12px;
+            }
+            &__description {
+                @include flex(flex-start, center);
+                margin-bottom: 15px;
+                @include tablet {
+                    margin-bottom: 5px;
+                }
+                @include mobile {
+                    margin-bottom: 5px;
+                }
+                .icon {
+                    width: 100%;
+                    flex-basis: 20%;
+                    @include tablet {
+                        flex-basis: unset;
+                        width: unset;
+                        margin-right: 10px;
+                    }
+                    @include mobile {
+                        flex-basis: unset;
+                        width: unset;
+                        margin-right: 10px;
+                    }
+                }
+                .icon-arrow > i {
+                    color: $color-white;
+                    font-size: 2rem;
+                    margin-right: 3px;
+                }
+                .icon-circle {
+                    width: 40px;
+                    height: 40px;
+                    @include flex(center, center);
+                    background: $color-white;
+                    border-radius: 50%;
+                    i {
+                        font-size: 1.4rem;
+                        color: $color-text;
+                    }
+                }
+                > .phone,
+                > .link,
+                > .description {
+                    letter-spacing: 1.4px;
+                    font-size: 1.8rem;
+                    color: $color-white;
+                    display: block;
+                    width: 100%;
+                    flex-basis: 80%;
+                    @include tablet {
+                        flex-basis: unset;
+                        width: unset;
+                    }
+                    @include mobile {
+                        flex-basis: unset;
+                        width: unset;
+                    }
+                }
+            }
+            .email {
+                @include flex(flex-start, center);
+                > .input-email {
+                    background: $color-white;
+                    padding: 10px 12px;
+                    font-size: 1.8rem;
+                    border: 2px solid transparent;
+                    color: $color-text;
+                    transition: all 0.4s;
+                    outline: none;
+                }
+                > .input-email:focus {
+                    border-color: #bfb3ff;
+                }
+                > span {
+                    display: inline-block;
+                    padding: 10px 12px;
+                    font-size: 1.8rem;
+                    background: $color-black;
+                    color: $color-white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -98,6 +98,23 @@
             }
         }
     }
+    &__viewmore {
+        margin-top: 5px;
+        text-align: center;
+        span {
+            cursor: pointer;
+            color: $color-black;
+            background: $color-white;
+            border: 2px solid $color-black;
+            font-size: 2.4rem;
+            padding: 6px 12px;
+            transition: all 0.4s;
+            &:hover {
+                background: $color-black;
+                color: $color-white;
+            }
+        }
+    }
 }
 #special__product__main {
     min-height: 300px;
